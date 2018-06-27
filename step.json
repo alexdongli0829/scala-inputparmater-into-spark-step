@@ -1,0 +1,1 @@
+ [ { "Name": "SparkWordCount", "Type": "Spark", "Args": [ "--deploy-mode", "cluster", "--class", "WordCount",  "--conf", "spark.yarn.appMasterEnv.PASSWORD=aaaaaaaaaa", "--conf", "spark.test.password=bbbbbbbbbbb", "s3://dongaws/sparkjar/simple-project_2.11-1.0.jar","s3://dongaws/zeppelin/subfoldertest/notebook/2DG98JVVQ/"], "ActionOnFailure": "CANCEL_AND_WAIT" } ]
